@@ -96,7 +96,7 @@
     padding: 10px;
     margin: 20px 0 20px -15px;
 }
-.card-box img {
+.card-box img, .left-box-user .col-2 img {
     height: 60px;
     border: none;
     border-radius: 50%;
@@ -136,6 +136,59 @@
 .load-button:hover {
     background-color: black;
 }
+
+/* Ask_Question Left Part */
+
+.two .left-box-ask {
+    background-color: white;
+    padding: 20px;
+    /* margin: 20px 0 20px -15px; */
+}
+.two .form-control, .two .custom-file-label {
+    background-color: rgb(245, 243, 243);
+}
+.ask-button {
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+}
+.ask-button button, .ask-button a {
+    color: white;
+    text-decoration: none;
+}
+.ask-button button:hover, .ask-button a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
+.two input[type="checkbox"] {
+    background-color: gray;
+}
+/* Ask_Question Left Part */
+
+/* User Profile Left part */
+.two .left-box-user {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0 20px -15px;
+}
+/* User Profile Left part */
+
+/* User Login Left part */
+.two .left-box-login, .two .right-box-login {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0 20px -15px;
+}
+.two .right-box-login button {
+    background-color: blue;
+    border: none;
+    padding: 5px 10px;
+}
+.two .right-box-login button:hover, .two .left-box-login button:hover {
+    background-color: black;
+}
+/* User Login Left part */
 
 .right-card {
     background-color: white;
@@ -324,4 +377,163 @@
   border-radius: 4px;
 }
 
+.one1 {
+    padding: 10px 100px;
+}
+.one2 {
+    padding: 50px 100px;
+}
+.marTop {
+    margin-top: 0;
+}
+.content {
+    padding: 10px 30px;
+}
 /* gotop */
+
+@media only screen and (max-width: 360px) {
+    .one1 {
+        padding: 5px 20px;
+    }
+    .one .navbar-brand {
+        margin-left: -70px;
+    }
+    .one2 {
+        padding: 10px 60px;
+    }
+    .one2 h2 {
+        font-size: 20px;
+    }
+    .one .text-box {
+        padding: 5px;
+    }
+    .text-box input {
+        width: 60%;
+    }
+    .one .content button {
+        padding: 5px;
+        font-size: 14px;
+    }
+    .load-button button {
+        margin-left: 20%;
+    }
+    .marTop {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 361px) and (max-width: 440px) {
+    .one .right {
+        display: none;
+    }
+    .one1 {
+        padding: 5px 20px;
+    }
+    .one .navbar-brand {
+        margin-left: -50px;
+    }
+    .one2 {
+        padding: 10px 60px;
+    }
+    .one2 h2 {
+        font-size: 20px;
+    }
+    .one .text-box {
+        padding: 5px;
+    }
+    .text-box input {
+        width: 60%;
+    }
+    .one .content button {
+        padding: 5px;
+        font-size: 14px;
+    }
+    .load-button button {
+        margin-left: 20%;
+    }
+    .marTop {
+        margin-top: 30px;
+    }
+    .two {
+        padding: 40px 20px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 575.98px) {
+    .one .right {
+        display: none;
+    }
+    .one1 {
+        padding: 5px 20px;
+    }
+    .one .navbar-brand {
+        margin-left: -50px;
+    }
+    .one2 {
+        padding: 10px 60px;
+    }
+    .one2 h2 {
+        font-size: 20px;
+    }
+    .one .text-box {
+        padding: 5px;
+    }
+    .text-box input {
+        width: 60%;
+    }
+    .one .content button {
+        padding: 5px;
+        font-size: 14px;
+    }
+    .load-button button {
+        margin-left: 30%;
+    }
+    .marTop {
+        margin-top: 30px;
+    }
+    .two {
+        padding: 50px 30px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .one1 {
+        padding: 5px 20px;
+    }
+    .one .navbar-brand {
+        margin-left: -50px;
+    }
+    .one2 {
+        padding: 10px 60px;
+    }
+    .one2 h2 {
+        font-size: 20px;
+    }
+    .one .text-box {
+        padding: 5px;
+    }
+    .text-box input {
+        width: 80%;
+    }
+    .marTop {
+        margin-top: 30px;
+    }
+    .two {
+        padding: 50px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .content {
+        padding: 10px 30px;
+    }
+    .two {
+        padding: 50px 20px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .two {
+        padding: 50px 60px;
+    }
+}
