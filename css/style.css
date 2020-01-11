@@ -175,6 +175,35 @@
 }
 /* User Profile Left part */
 
+/* Contact Us Page Body */
+
+.two .contactus-card {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0 20px -15px;
+}
+.two .maps {
+ width: 95%;
+ margin: 0 auto;
+}
+
+.two .social-logos span {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin: 10px 5px 0 5px;
+}
+.two .social-logos i:hover {
+    background-color: black;
+}
+.two .social-logos i{
+    font-size: 20px;
+    padding: 5px 7px;
+    color: white;
+}
+
+/* Contact Us Page Body */
+
 /* User Login Left part */
 .two .left-box-login, .two .right-box-login {
     background-color: white;
