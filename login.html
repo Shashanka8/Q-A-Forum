@@ -49,7 +49,6 @@
                             </a>
                             <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item" href="./index.html">Home</a>
-                                <a class="dropdown-item" href="#">Home 1</a>
                             </div>
                         </li>
                         <li class="nav-item">
@@ -73,9 +72,9 @@
                             </a>
                             <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item" href="./user_profile.html">User Profile</a>
-                                <a class="dropdown-item" href="#">User Questions</a>
-                                <a class="dropdown-item" href="#">User Answers</a>
-                                <a class="dropdown-item" href="#">User Point</a>
+                                <a class="dropdown-item" href="./user_questions.html">User Questions</a>
+                                <a class="dropdown-item" href="./user_answers.html">User Answers</a>
+                                <a class="dropdown-item" href="./user_points.html">User Point</a>
                                 <a class="dropdown-item" href="./user_profile.html">Edit Profile</a>
                             </div>
                         </li>
@@ -143,10 +142,55 @@
                                 fugiat.</small>
                         </p>
                         <span>
-                            <a href="#">
-                                <button class="text-white">Create an account</button>
-                            </a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#exampleModalCenter">
+                                Create an account
+                            </button>
                         </span>
+                    </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">Register Now</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form action="#">
+                                    <div class="form-group">
+                                        <label for="username"><small><b>Username</b></small> <span
+                                                style="color: red;">*</span></label>
+                                        <input type="text" class="form-control" id="username">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="emailInput"><small><b>E-Mail</b></small> <span
+                                                style="color: red;">*</span></label>
+                                        <input type="email" class="form-control" id="emailInput">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="passwordInput"><small><b>Password</b></small> <span
+                                                style="color: red;">*</span></label>
+                                        <input type="password" class="form-control" id="passwordInput">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="confirmPassInput"><small><b>Confirm Password</b></small> <span
+                                                style="color: red;">*</span></label>
+                                        <input type="password" class="form-control" id="confirmPassInput">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                                <button type="submit" class="btn btn-primary w-100">Signup</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!-- Right Body Part -->
