@@ -178,6 +178,23 @@
     padding: 0 10px;
 }
 /* User Points page */
+/* Register, Error Page */
+
+.register-card, .error-card {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 60px;
+}
+.error-card a {
+    color: white;
+    text-decoration: none;
+}
+.error-card a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* Register, Error Page */
 
 /* User Qusetion Page */
 
